@@ -17,4 +17,15 @@
     background-color: lighten($color-button-background, 10);
   }
 
+  &[data-color="gray"] {
+
+    color: rgba(0,0,0,.6);
+    background-color: $color-header-links;
+
+    &:hover {
+      background-color: lighten($color-header-links, 5);
+    }
+
+  }
+
 }
