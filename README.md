@@ -1,23 +1,23 @@
 # Demo Long Press Starter
 
-A Next.js click-feedback page with Click and Reset controls; it includes a long-press result state, but no handler currently triggers that state.
+A Next.js click-or-press interaction demo with Click and Reset controls and placeholder output for click and long-press results.
 
-## Use this template
+## Getting Started
 
-```bash
-npx create-next-app -e https://github.com/colbyfayock/demo-long-press-starter
-```
-
-## Local setup
-
-Install dependencies with yarn, then start the development server:
+- Set up a new project
 
 ```bash
-yarn install
-yarn dev
+npx create-next-app my-long-press -e https://github.com/colbyfayock/demo-long-press-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+- Navigate to your new project
 
-Use `yarn build` to create a production build.
-After building, use `yarn start` to serve the production build.
+```bash
+cd my-long-press
+```
+
+- Start the development server
+
+```bash
+npm run dev
+```
